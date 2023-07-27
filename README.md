@@ -2,7 +2,7 @@
 - 一个可以重复您的输入的工具
 
 ## 使用
-1. [编译](#编译)或[下载](https://github.com/SessionHu/RepeaterG/Releases/)文件
+1. [编译](#编译)或[下载](https://github.com/SessionHu/RepeaterG/releases/)文件
 2. 在有 `RepeaterG.class` 文件的目录下执行 `java RepeaterG`
 
 ## 编译
