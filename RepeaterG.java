@@ -33,15 +33,20 @@ public class RepeaterG {
 		Scanner scan = new Scanner(System.in);
 		String input = "";
 		// 输出软件信息
-		System.out.println("复读姬 v0.1.0");
+		System.out.println("复读姬 v0.2.0");
 		System.out.println("(C) 2023 SessionHu");
-		System.out.println("按下 Ctrl+C 退出");
+		System.out.println("输入 \"exit\" 退出");
 		System.out.println("-----------------------");
 		// 运行
 		while(true) {	// 循环
-			System.out.print("你:     ");
+			System.out.print("    你: ");
 			input = scan.nextLine();
-			System.out.println("复读姬: "+input);
+			if(!input.equals("exit")) {
+				System.out.println("复读姬: "+input);
+			} else {
+				System.out.println("复读姬: 再见!");
+				System.exit(0);
+			}
 		}
 	}
 }
