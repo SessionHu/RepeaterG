@@ -42,8 +42,10 @@ public class RepeaterG {
 			System.out.print("    你: ");
 			input = scan.nextLine();
 			if(!input.equals("exit")) {
+				// 正常输出
 				System.out.println("复读姬: "+input);
 			} else {
+				// 正常退出
 				System.out.println("复读姬: 再见!");
 				System.exit(0);
 			}
